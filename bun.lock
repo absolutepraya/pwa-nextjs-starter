@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "bkui",
+      "name": "template",
       "devDependencies": {
         "@biomejs/biome": "^2.1.2",
       },

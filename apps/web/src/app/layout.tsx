@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "bkui",
-	description: "bkui",
+	title: "[App Name]",
+	description: "[App Desc]",
 };
 
 export default function RootLayout({
