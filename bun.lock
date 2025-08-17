@@ -2,11 +2,11 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "template",
-      "devDependencies": {
-        "@biomejs/biome": "^2.1.2",
-      },
-    },
+					"name": "app-name",
+					"devDependencies": {
+						"@biomejs/biome": "^2.1.2"
+					}
+				},
     "apps/web": {
       "name": "web",
       "version": "0.1.0",
