@@ -29,8 +29,10 @@ export default function RootLayout({
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
 				<Providers>
-					<div className="grid h-svh min-h-screen grid-rows-[auto_1fr]">
-						{children}
+					<div className="flex h-screen w-screen items-center justify-center bg-gray-300">
+						<div className="relative h-full max-h-[888px] w-full max-w-[450px] overflow-hidden shadow-2xl">
+							{children}
+						</div>
 					</div>
 				</Providers>
 			</body>
