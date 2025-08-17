@@ -39,8 +39,12 @@ bkui/
 
 ## Available Scripts
 
+### Root Commands (from root directory)
+
 - `bun dev`: Start all applications in development mode
 - `bun build`: Build all applications
-- `bun dev:web`: Start only the web application
 - `bun check-types`: Check TypeScript types across all apps
 - `bun check`: Run Biome formatting and linting
+- `bun dev:web`: Start only the web application
+- `bun dev:native`: Start only the native application
+- `bun dev:server`: Start only the server application
