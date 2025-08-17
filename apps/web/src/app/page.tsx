@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 const TITLE_TEXT = `
  ██████╗ ███████╗████████╗████████╗███████╗██████╗
@@ -17,10 +17,9 @@ const TITLE_TEXT = `
  `;
 
 export default function Home() {
-
-  return (
-    <div className="flex h-screen items-center justify-center">
-      <pre className="overflow-x-auto font-mono text-sm">{TITLE_TEXT}</pre>
-    </div>
-  );
+	return (
+		<div className="flex h-screen items-center justify-center">
+			<pre className="overflow-x-auto font-mono text-sm">{TITLE_TEXT}</pre>
+		</div>
+	);
 }
